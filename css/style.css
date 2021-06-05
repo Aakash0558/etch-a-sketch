@@ -40,6 +40,7 @@ button:hover{
   max-width: 500px;
   min-height: 500px;
   margin: 1.5rem auto;
+  border: 2px solid #ddd;
 }
 
 .grid-items {
