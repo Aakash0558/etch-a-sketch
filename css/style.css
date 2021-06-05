@@ -1,0 +1,47 @@
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+body{
+  background-color: #293b5f;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: #e5d549;
+}
+
+button{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #454a4d;
+  color: #e5d549;
+  border: 1px solid black;
+}
+
+button:hover{
+  background-color: #343f56;
+}
+
+#clear{
+  margin-left: 20px;
+}
+
+#container {
+  margin: 10px;
+}
+
+#grids {
+  display: grid;
+  max-width: 500px;
+  min-height: 500px;
+  margin: 1.5rem auto;
+}
+
+.grid-items {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  text-align: center;
+}
